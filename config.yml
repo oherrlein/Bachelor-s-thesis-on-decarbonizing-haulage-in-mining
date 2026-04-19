@@ -1,0 +1,21 @@
+scenarios:
+      
+    - mine: "reference_mine_2"
+      truck_sets:
+        - "set2"
+      name: "Antamina-type"
+
+    - mine: "reference_mine_3"
+      truck_sets: 
+        - "set3"
+      name: "Cuajone-type"
+
+    - mine: "reference_mine_4"
+      truck_sets:
+        - "set1"
+      name: "Constancia-type"
+
+    - mine: "reference_mine_5"
+      truck_sets: 
+        - "set4"
+      name: "Cerro Corona-type"
