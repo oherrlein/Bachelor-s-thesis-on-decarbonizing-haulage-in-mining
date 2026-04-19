@@ -1,0 +1,29 @@
+truck:
+  name: "Komatsu 930E-5 - trolley assumption"
+  model: "930E-5 electric assumption"
+  technology: "trolley"
+  scenario: "progressive"
+
+mass_and_geometry:
+  payload_t: 290
+  empty_weight_t: 249
+  gross_vehicle_weight_t: 539
+  front_surface_m2: 60.85
+
+powertrain:
+  total_drive_power_kw: 2820
+  drivetrain_efficiency: 0.95
+  regen_efficiency: 0.95
+
+energy_and_cost:
+  energy_type: "electricity"
+  battery_capacity_kwh: 3200
+  fuel_energy_density_MJ_per_kwh: 3.6
+  electricity_cost_per_kwh: 0.14
+  electricity_cost_per_kwh_solar: 0.03
+
+cycle_timing:
+  idle_power_kw: 46
+  t_load_s: 210
+  t_unload_s: 30
+

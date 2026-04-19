@@ -1,0 +1,27 @@
+truck:
+  name: "LGMG MT86H – battery assumption"
+  model: "MT86H BEV assumption"
+  technology: "battery"
+  scenario: "conservative"
+
+mass_and_geometry:
+  payload_t: 52
+  empty_weight_t: 53
+  gross_vehicle_weight_t: 105
+  front_surface_m2: 14.38
+
+powertrain:
+  total_drive_power_kw: 522
+  drivetrain_efficiency: 0.8
+  regen_efficiency: 0.85
+
+energy_and_cost:
+  energy_type: "electricity"
+  fuel_energy_density_MJ_per_kwh: 3.6
+  electricity_cost_per_kwh: 0.093
+
+cycle_timing:
+  idle_power_kw: 14
+  t_load_s: 210
+  t_unload_s: 30
+

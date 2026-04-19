@@ -1,0 +1,30 @@
+truck:
+  name: "Komatsu 930E-5 - electric assumption"
+  model: "930E-5 electric assumption"
+  technology: "battery"
+  scenario: "conservative"
+
+mass_and_geometry:
+  payload_t: 290                    
+  empty_weight_t: 300               
+  gross_vehicle_weight_t: 590      
+  front_surface_m2: 60.85             
+                                     
+
+powertrain:
+  motor_power_kw: 2014               
+  drivetrain_efficiency: 0.8      
+  regen_efficiency: 0.85             
+
+energy_and_cost:
+  energy_type: "electricity"
+  battery_capacity_kwh: 3200       
+  fuel_energy_density_MJ_per_kwh: 3.6 
+  electricity_cost_per_kwh: 0.18     
+
+cycle_timing:
+  idle_power_kw: 53      
+  t_load_s: 210         
+  t_unload_s: 30       
+
+

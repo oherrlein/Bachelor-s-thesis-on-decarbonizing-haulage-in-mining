@@ -1,0 +1,36 @@
+mine:
+  name: "Antamina"
+  country: "Peru"
+  scenario: "conservative"
+
+production:
+  ore_throughput_t_per_year: 45500000   
+  strip_ratio: 2.79                       
+
+transport:
+  distance_crusher_excavator: 7000      
+  distance_dump_excavator: 9800         
+
+
+environment:
+  elevation_masl: 4300                  
+  p_air: 0.794                          
+  acc_gravity: 9.78                     
+  
+  mine_gradient_degree_crusher: 4.57   
+                                        
+
+  drag_coefficient: 0.8                
+  coefficient_friction_tire_soil: 0.035 
+  coefficient_rolling_resistance: 0.006 
+  max_mine_depth: 2000                  
+notes: >
+  Antamina, Peru. Conservative scenario.
+  Maximum gradient (10%) taken directly from NI 43-101.
+  Transport distances are assumptions – no direct source data available.
+  Mine is probably up-gradient (note in Excel).
+  Vertical extent of mineralisation: 2000 m (Source: page 7-8, Section 7.3.1).
+
+  About distances: maximal vertical distance is estimated to lay between 800m and 400m. (maximum pit depth = 2000m, but no truck drives the full distance usually)
+  calculation: with 10% elevation (5,71 degrees), we have: distance = (vertical distance)/sin(5,71°) = 800m/sin(5,71) = 8000m (conservative case) and
+  400m/sin(5,71) = 4000m (progressive case)

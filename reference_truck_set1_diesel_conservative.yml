@@ -1,0 +1,26 @@
+truck:
+  name: "Liebherr T 264 Diesel"
+  model: "T 264"
+  technology: "diesel"
+  scenario: "conservative"
+
+mass_and_geometry:
+  payload_t: 240                     
+  empty_weight_t: 176                
+  gross_vehicle_weight_t: 416        
+  front_surface_m2: 54.1             
+
+powertrain:
+  engine_power_kw: 2013             
+  drivetrain_efficiency: 0.43        
+  regen_efficiency: 0.0             
+
+energy_and_cost:
+  fuel_type: "diesel"
+  fuel_energy_density_MJ_per_l: 35.8  
+  fuel_cost_per_l: 1.25                
+cycle_timing:
+  idle_power_kw: 233      
+  t_load_s: 210         
+  t_unload_s: 30       
+

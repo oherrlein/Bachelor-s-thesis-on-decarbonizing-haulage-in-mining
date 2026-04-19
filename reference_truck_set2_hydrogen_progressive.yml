@@ -1,0 +1,33 @@
+
+
+truck:
+  name: "Komatsu 930E-5 - hydrogen assumption"
+  model: "930E-5 hydrogen assumption"
+  technology: "hydrogen"
+  scenario: "progressive"
+
+mass_and_geometry:
+  payload_t: 290                 
+  empty_weight_t: 266                
+  gross_vehicle_weight_t: 566       
+  front_surface_m2: 60.85           
+                               
+powertrain:
+  total_drive_power_kw: 2014        
+  fc_share: 0.2484                  
+  drivetrain_efficiency: 0.63       
+  regen_efficiency: 0.95              
+  electrolysis_efficiency: 0.76   
+
+energy_and_cost:
+  energy_type: "hydrogen"
+  hydrogen_cost_mode: "market"
+  hydrogen_LHV_MJ_per_kg: 120        
+  hydrogen_cost_per_kg: 1.9         
+  electricity_cost_per_kwh: 0.12    
+
+cycle_timing:
+  idle_power_kw: 46      
+  t_load_s: 210         
+  t_unload_s: 30       
+

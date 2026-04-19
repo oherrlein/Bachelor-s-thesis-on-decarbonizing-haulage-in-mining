@@ -1,0 +1,30 @@
+mine:
+  name: "Constancia"
+  country: "Peru"
+  scenario: "conservative"
+
+production:
+  ore_throughput_t_per_year: 31400000   
+  strip_ratio: 1.34                      
+transport:
+  distance_crusher_excavator: 2450     
+  distance_dump_excavator: 3430        
+
+environment:
+  elevation_masl: 4200                
+  p_air: 0.802                     
+  acc_gravity: 9.78                     
+  mine_gradient_degree: 10.0            
+  mine_gradient_degree_crusher: 4.57 #8 
+  
+  drag_coefficient: 0.8                
+  coefficient_friction_tire_soil: 0.035 
+  coefficient_rolling_resistance: 0.006 
+  max_mine_depth: 705                  
+notes: >
+  Constancia, Peru. Conservative scenario.
+  Consists of two deposits: Constancia (4440–3735 masl) and Pampacancha (4350–4050 masl).
+  Source for elevation: NI 43-101, Section 16.2.2, page 16-117.
+  Transport distances: 1.0–8.9 km (various sources). Conservative: maximum value.
+  Also looks like up-gradient mine (note in Excel).
+  Note: reduction of diesel engine performance at high altitude (note in Excel).

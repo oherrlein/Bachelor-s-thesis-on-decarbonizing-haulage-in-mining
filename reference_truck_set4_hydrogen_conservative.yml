@@ -1,0 +1,31 @@
+truck:
+  name: "LGMG MT86H – hydrogen assumption"
+  model: "MT86H H2"
+  technology: "hydrogen"
+  scenario: "conservative"
+
+mass_and_geometry:
+  payload_t: 52
+  empty_weight_t: 45
+  gross_vehicle_weight_t: 97
+  front_surface_m2: 14.38
+
+powertrain:
+  total_drive_power_kw: 522
+  fc_share: 0.68
+  drivetrain_efficiency: 0.45
+  regen_efficiency: 0.85
+  electrolysis_efficiency: 0.68
+
+energy_and_cost:
+  energy_type: "hydrogen"
+  hydrogen_cost_mode: "market"
+  hydrogen_LHV_MJ_per_kg: 120.0
+  hydrogen_cost_per_kg: 4.9
+  electricity_cost_per_kwh: 0.12
+
+cycle_timing:
+  idle_power_kw: 14
+  t_load_s: 210
+  t_unload_s: 30
+

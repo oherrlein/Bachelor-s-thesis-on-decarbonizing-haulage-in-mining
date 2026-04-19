@@ -1,0 +1,35 @@
+#Conservative case: Mainly use of hydrogen. the fc_share is high. Batteries are thought to only take over for peaks and for recuperation
+
+truck:
+  name: "Liebherr T 264 Hydrogen – Europa"
+  model: "T 264 H2 Europa"
+  technology: "hydrogen"
+  scenario: "conservative"
+
+mass_and_geometry:
+  payload_t: 240                   
+  empty_weight_t: 193              
+  gross_vehicle_weight_t: 433    
+  front_surface_m2: 54.1           
+
+powertrain: 
+  total_drive_power_kw: 2013        
+  fc_share: 0.68                    
+  battery_capacity_kwh: 1600       
+  drivetrain_efficiency: 0.45     
+  regen_efficiency: 0.85           
+  electrolysis_efficiency: 0.68
+
+energy_and_cost:
+  energy_type: "hydrogen"
+  hydrogen_cost_mode: "market"
+  hydrogen_mass_kg: 380             
+  hydrogen_LHV_MJ_per_kg: 120      
+  hydrogen_cost_per_kg: 4.9        
+  electricity_cost_per_kwh: 0.12   
+  
+cycle_timing:
+  idle_power_kw: 53   
+  t_load_s: 210        
+  t_unload_s: 30        
+

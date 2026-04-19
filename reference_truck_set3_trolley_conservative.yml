@@ -1,0 +1,27 @@
+truck:
+  name: "Komatsu 980E-4 - trolley assumption"
+  model: "980E-4 trolley assumption"
+  technology: "trolley"
+  scenario: "conservative"
+
+mass_and_geometry:
+  payload_t: 369
+  empty_weight_t: 282
+  gross_vehicle_weight_t: 651
+  front_surface_m2: 71.0
+
+powertrain:
+  total_drive_power_kw: 3439
+  trolley_share: 0.80
+  drivetrain_efficiency: 0.85
+  regen_efficiency: 0.85
+
+energy_and_cost:
+  energy_type: "electricity"
+  fuel_energy_density_MJ_per_kwh: 3.6
+  electricity_cost_per_kwh: 0.153
+
+cycle_timing:
+  idle_power_kw: 65
+  t_load_s: 210
+  t_unload_s: 30

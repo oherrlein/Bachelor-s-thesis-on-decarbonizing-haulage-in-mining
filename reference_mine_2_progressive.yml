@@ -1,0 +1,33 @@
+mine:
+  name: "Antamina"
+  country: "Peru"
+  scenario: "progressive"
+
+production:
+  ore_throughput_t_per_year: 45500000   
+  strip_ratio: 2.79                     
+
+transport:
+  distance_crusher_excavator: 7000      
+  distance_dump_excavator: 9800         
+
+
+
+environment:
+  elevation_masl: 4300                 
+  p_air: 0.794                         
+  acc_gravity: 9.78                    
+  mine_gradient_degree: 5.7           
+  mine_gradient_degree_crusher: 3.4   
+
+                                        
+  
+
+
+  drag_coefficient: 0.8                
+  coefficient_friction_tire_soil: 0.035 
+  coefficient_rolling_resistance: 0.006 
+  max_mine_depth: 2000                  
+notes: >
+  Antamina, Peru. Progressive scenario.
+  Gradient: 10% maximum from NI 43-101, interpreted here as average (5.7°).

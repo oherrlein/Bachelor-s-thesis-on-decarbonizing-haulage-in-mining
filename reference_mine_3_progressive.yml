@@ -1,0 +1,29 @@
+mine:
+  name: "Cuajone"
+  country: "Peru"
+  scenario: "progressive"
+
+production:
+  ore_throughput_t_per_year: 26000000  
+  strip_ratio: 1.98                      
+
+transport:
+  distance_crusher_excavator: 4517     
+  distance_dump_excavator: 7498        
+
+  
+environment:
+  elevation_masl: 3400                  
+  p_air: 0.872                         
+  acc_gravity: 9.79                     
+
+  mine_gradient_degree_crusher: 3.43  #6%
+ 
+ 
+  drag_coefficient: 0.8                 
+  coefficient_friction_tire_soil: 0.035 
+  coefficient_rolling_resistance: 0.006 
+  max_mine_depth: 1290                  
+notes: >
+  Cuajone, Peru. Progressive scenario.
+  Upper ore throughput (31 Mt/a) as optimistic case.

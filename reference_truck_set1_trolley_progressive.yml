@@ -1,0 +1,28 @@
+truck:
+  name: "Liebherr T 264 Trolley"
+  model: "T 264 Trolley"
+  technology: "trolley"
+  scenario: "progressive"
+
+mass_and_geometry:
+  payload_t: 240
+  empty_weight_t: 190          
+  gross_vehicle_weight_t: 430   
+  front_surface_m2: 54.1
+
+powertrain:
+  total_drive_power_kw: 2818   
+  trolley_share: 0.80            
+  drivetrain_efficiency: 0.95   
+  regen_efficiency: 0.95         
+
+energy_and_cost:
+  energy_type: "electricity"
+  fuel_energy_density_MJ_per_kwh: 3.6
+  electricity_cost_per_kwh: 0.14
+
+cycle_timing:
+  idle_power_kw: 46    
+  t_load_s: 210         
+  t_unload_s: 30       
+

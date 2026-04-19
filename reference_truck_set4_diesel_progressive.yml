@@ -1,0 +1,27 @@
+truck:
+  name: "LGMG MT86H"
+  model: "MT86H"
+  technology: "diesel"
+  scenario: "progressive"
+
+mass_and_geometry:
+  payload_t: 52
+  empty_weight_t: 41
+  gross_vehicle_weight_t: 93
+  front_surface_m2: 14.38
+
+powertrain:
+  engine_power_kw: 522
+  drivetrain_efficiency: 0.477
+  regen_efficiency: 0.0
+
+energy_and_cost:
+  fuel_type: "diesel"
+  fuel_energy_density_MJ_per_l: 35.8
+  fuel_cost_per_l: 1
+
+idle:
+  idle_power_kw: 50
+  t_load_s: 210
+  t_unload_s: 30
+

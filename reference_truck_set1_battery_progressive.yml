@@ -1,0 +1,27 @@
+truck:
+  name: "Liebherr T 264 Battery Electric"
+  model: "T 264 BEV"
+  technology: "battery"
+  scenario: "progressive"
+
+mass_and_geometry:
+  payload_t: 240                     
+  empty_weight_t: 211               
+  gross_vehicle_weight_t: 451        
+  front_surface_m2: 54.1             
+powertrain:
+  motor_power_kw: 2013               
+  drivetrain_efficiency: 0.9        
+  regen_efficiency: 0.95             
+
+energy_and_cost:
+  energy_type: "electricity"
+  battery_capacity_kwh: 3200         
+  fuel_energy_density_MJ_per_kwh: 3.6
+  electricity_cost_per_kwh: 0.14     
+  electricity_cost_per_kwh_solar: 0.03 
+
+cycle_timing:
+  idle_power_kw: 46      
+  t_unload_s: 30        
+

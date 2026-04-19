@@ -1,0 +1,30 @@
+mine:
+  name: "Cerro Corona"
+  country: "Peru"
+  scenario: "progressive"
+
+production:
+  ore_throughput_t_per_year: 7300000  
+  strip_ratio: 1.1                  
+
+transport:
+  distance_crusher_excavator: 1400      
+  distance_dump_excavator: 1680        
+ 
+  
+environment:
+  elevation_masl: 4000               
+  p_air: 0.819                        
+  acc_gravity: 9.79                    
+  mine_gradient_degree: 5.7             
+  mine_gradient_degree_crusher: 3.43    
+
+  
+  drag_coefficient: 0.8                 
+  coefficient_friction_tire_soil: 0.035 
+  coefficient_rolling_resistance: 0.006 
+  max_mine_depth: 400                  
+notes: >
+  Cerro Corona, Peru. Progressive scenario.
+  Minimum strip ratio (0.9) as optimistic case.
+  Lower elevation (3600 masl) → higher air density → lower aerodynamic drag.

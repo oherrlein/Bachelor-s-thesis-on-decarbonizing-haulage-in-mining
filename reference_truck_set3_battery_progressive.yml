@@ -1,0 +1,28 @@
+truck:
+  name: "Komatsu 980E-4 - battery assumption"
+  model: "980E-4 battery assumption"
+  technology: "battery"
+  scenario: "progressive"
+
+mass_and_geometry:
+  payload_t: 369
+  empty_weight_t: 307
+  gross_vehicle_weight_t: 676
+  front_surface_m2: 71.0
+
+powertrain:
+  total_drive_power_kw: 2495
+  drivetrain_efficiency: 0.9
+  regen_efficiency: 0.95
+
+energy_and_cost:
+  energy_type: "electricity"
+  fuel_energy_density_MJ_per_kwh: 3.6
+  electricity_cost_per_kwh: 0.119
+
+cycle_timing:
+  idle_power_kw: 50
+  t_load_s: 210
+  t_unload_s: 30
+
+notes: >
